@@ -1,5 +1,5 @@
 {% set name = "sentinelsat" %}
-{% set version = "1.1.1" %}
+{% set version = "1.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: fabda14cb16573c387f1880b49facbccff914ac41f58592aad9999b991b13c61
+  sha256: d38de0ae1e167d7311426973b0207380e9fa1c4a6f5353dc58bd83bf88b5db4d
 
 build:
   noarch: python
